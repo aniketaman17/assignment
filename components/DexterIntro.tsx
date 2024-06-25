@@ -1,13 +1,15 @@
 "use client";
 import { useRouter } from 'next/navigation';
 
+
+
 const DexterIntro = () => {
   const router = useRouter();
 
   const handleButtonClick = () => {
     router.push('/helpyou');
   };
-
+  
   return (
     <div className="text-center text-white p-4 rounded-lg w-full h-full flex flex-col justify-center items-center bg-dark">
       <span className="text-sm uppercase tracking-wider bg-gray-800 px-2 py-1 rounded-full">Beta</span>
